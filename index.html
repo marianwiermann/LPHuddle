@@ -7,27 +7,40 @@
 
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <img src="images/logo.png" />
-      <button type="button">Try It Free</button>
+      <button>Try It Free</button>
     </header>
 
     <main>
       <section class="inicial">
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          volutpat volutpat orci, molestie viverra purus ullamcorper et. Fusce
-          rutrum tellus vitae elit scelerisque, ut luctus turpis pulvinar.
-        </p>
-        <button type="button">Get Starded for Free</button>
-        <img class="mockups" src="images/illustration-mockups.png" />
+        <div class="inicial-text">
+          <h1>Build The Community</h1>
+          <h1>Your Fans Will Love</h1>
+          <p>
+            Huddle lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Curabitur volutpat volutpat orci, molestie viverra purus ullamcorper
+            et. Fusce rutrum tellus vitae elit scelerisque, ut luctus turpis
+            pulvinar.
+          </p>
+          <button>Get Starded for Free</button>
+        </div>
+        <div>
+          <img class="inicial-photo" src="images/illustration-mockups.png" />
+        </div>
       </section>
 
-      <section>
-        <div>
+      <section class="informacao">
+        <div class="card-01">
           <h2>Grow Together</h2>
           <p1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -36,7 +49,7 @@
           <img src="images/illustration-grow-together.png" />
         </div>
 
-        <div>
+        <div class="card-02">
           <img src="images/illustration-flowing-conversation.png" />
           <h2>Flowing Conversations</h2>
           <p1>
@@ -45,7 +58,7 @@
           </p1>
         </div>
 
-        <div>
+        <div class="card-03">
           <h2>Your Users</h2>
           <p1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
@@ -55,12 +68,34 @@
         </div>
       </section>
 
-      <section>
+      <section class="card-final">
         <h3>Ready To Build Your Community?</h3>
         <button type="button">Get Starded for Free</button>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <img class="footer-logo" src="images/logobranco.png" />
+      <section>
+        <div class="footer-coluna1">
+          <img src="images/icon-location.png" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <img src="images/icon-phone.png" />
+          <p>11 xxxx xxxx</p>
+          <img src="images/icon-email.png" />
+          <p>xxx@gmail.com</p>
+        </div>
+        <div>
+          <p>About Us</p>
+          <p>What We Do</p>
+          <p>FAQ</p>
+        </div>
+        <div>
+          <p>Carrer</p>
+          <p>Blog</p>
+          <p>Contac Us</p>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

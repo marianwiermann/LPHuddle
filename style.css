@@ -1,22 +1,128 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+
 body {
-  padding: 64px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+/* CABEÇALHO */ 
 header {
+  padding: 64px 64px 0px 64px;
   padding-bottom: 48px;
   display: flex;
   justify-content: space-between;
-  background: red;
+  background: hsl(193, 100%, 96%);
 }
 
 header img {
   width: 150px;
 }
 
-.inicial {
-  background: red;
+header button {
+  border: none;
+  border-radius: 50px;
+  background: white;
+  padding: 8px 18px 8px 18px;
+  box-shadow: 1px 1px 5px 0px rgb(190, 190, 190);
 }
 
-.mockups {
-  width: 40%;
+header button :hover {
+  background: rgb(204, 204, 204);
+  font-weight: bolder;
+}
+
+/* CONTEUDO INCIAL */ 
+.inicial {
+  padding: 0px 64px 64px 64px;
+  background: hsl(193, 100%, 96%);
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.inicial-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 100px 34px 0;
+}
+
+.inicial-photo {
+  width: 100%;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 34px;
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inicial p {
+margin: 12px 0 20px 0;
+}
+
+.inicial button {
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 50px;
+  background: hsl(322, 100%, 66%);
+  padding: 15px;
+} 
+
+.inicial button :hover {
+  background: hsl(322, 85%, 82%);
+}
+
+/* CONTEUDO */ 
+.informacao img {
+  width: 120px;
+}
+
+.informacao div {
+  box-shadow: 1px 1px 5px 0px rgb(190, 190, 190);
+  margin: 32px 45px 32px 45px;
+  padding: 8%;
+  border-radius: 10px;
+}
+
+.card-01{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  padding: 100px 64px 64px 64px;
+  color: white;
+  background: hsl(192, 100%, 9%)
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 24px;
+}
+
+footer section {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.footer-coluna1 img {
+  width: 12px;
+  margin-right: 20px;
+}
+
+.footer-coluna1 {
+  display: grid;
+  grid-template-columns: auto auto;
 }
