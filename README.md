@@ -20,4 +20,4 @@ O layout de landing page foi escolhida no site de desafios [Frontend Mentor](htt
 
 ## Link de demonstração
 
-> https://marianwiermann.github.io/LandingPageHuddle/
+> https://marianwiermann.github.io/LPHuddle/
