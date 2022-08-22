@@ -6,11 +6,10 @@ Projeto de layout realizado como exercicio de aprimoramento.
 
 O layout de landing page foi escolhida no site de desafios [Frontend Mentor](https://www.frontendmentor.io/challenges).
 
-<p align="center"><img src="images/gif.gif"></p>
+<p align="center"><img src="images/git.gif"></p>
 
 ## Objetivo
 
-- `Praticar código`
 - `Usar grid`
 - `Finalizar em 7 dias`
 
